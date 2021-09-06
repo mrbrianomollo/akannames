@@ -34,20 +34,18 @@
             <div class="col-md-6">
                 <div class="form">
                     <label>Day</label><br>
-                    <input type="text" class="form2" placeholder="DD"><br>
+                    <input type="text" id="day" placeholder="DD"><br>
                     <label>Month</label><br>
-                    <input type="text" class="form2" placeholder="MM"><br>
+                    <input type="text" id="month" placeholder="MM"><br>
                     <label>Year</label><br>
-                    <input type="text" class="form2" placeholder="YYYY"><br>
+                    <input type="text" id="year" placeholder="YYYY"><br>
                     <label>Gender</label><br>
-                    <input type="radio" name="gender" class="gender" value="male" checked> Male<br>
-                    <input type="radio" name="gender" class="gender" value="male" checked> Female<br>
-                    <input type="submit" class="button" value="Check"
+                    <input type="radio" name="gender" id="gender" value="male" checked> Male<br>
+                    <input type="radio" name="gender" id="gender" value="male" checked> Female<br>
+                    <input type="submit" class="button" value="SUBMIT"
                     onclick="output()">
-                    <div class="akan-name">
-                        Akan Name
-
-                    </div>
+                    <div class="intro"></div>
+                    <p id="akan-name"></p>
                     
 
                 </div>
@@ -57,6 +55,10 @@
         </div>
 
     </div>
+    <script src="js/script.js"></script>
     
 </body>
+<footer>
+    <a href="https://github.com/mrbrianomollo" target="_blank"><h5 class="intro">Designed by Brian Ongati</h5></a>
+</footer>
 </html>
