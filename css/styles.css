@@ -56,6 +56,10 @@ h3{
 }
 .special{
     color: yellow;
+    margin-top: 0px;
+    font-family: ubuntu mono, 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
     
 }
 .central{
