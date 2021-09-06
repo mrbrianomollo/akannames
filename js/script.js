@@ -108,7 +108,7 @@ function output() {
                 "You were born on a " +
                 days[dayOfTheWeek] +
                 "  , therefore your Akan name is " +
-                femaleName[1];
+                femaleName[0];
         } else {
             alert("Ensure you have filled all the required fields(*)");
         }
