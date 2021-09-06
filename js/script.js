@@ -5,11 +5,11 @@ function output() {
     var mm = parseInt(month);
     var day = document.getElementById("day").value;
     var dd = parseInt(day);
-    var cc = (yy - 1) / (100 + 2);
+    var cc = yy / 100;
     var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday",
     ];
-    var maleName = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-    var femaleName = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+    var maleName = ["Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame", "Kwasi"];
+    var femaleName = ["Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama", "Akosua"];
     var birthday = new Date(mm + "/" + dd + "/" + yy);
     var dayOfTheWeek = birthday.getDay();
     var result =
