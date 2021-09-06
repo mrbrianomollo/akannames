@@ -45,22 +45,28 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="form">
+                    <label>Enter your First Name</label><br>
+                    <input type="text" id="fname" placeholder="First Name" required><br>
                     <label>Day</label><br>
-                    <input type="text" id="day" placeholder="DD"><br>
+                    <input type="text" id="day" placeholder="DD" required><br>
                     <label>Month</label><br>
-                    <input type="text" id="month" placeholder="MM"><br>
+                    <input type="text" id="month" placeholder="MM" required><br>
                     <label>Year</label><br>
-                    <input type="text" id="year" placeholder="YYYY"><br>
+                    <input type="text" id="year" placeholder="YYYY" required><br>
                     <label>Gender</label><br>
                     <input type="radio" name="gender" id="gender" value="male" checked> Male<br>
                     <input type="radio" name="gender" id="gender" value="male" checked> Female<br>
                     <input type="submit" class="button" value="SUBMIT"
                     onclick="output()">
                     <div class="intro"></div>
-                    <p id="akan-name"></p>
+                    
                     
 
                 </div>
+            <div class="col-md-6">
+                <p id="akan-name"></p>
+
+            </div>
 
             </div>
 
