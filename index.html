@@ -16,7 +16,7 @@
 <body class="content" style="background-color: #020c1b;">
     <nav>
         <div class="logo">
-           <a href="#home">Akan<span>Names</span></a>
+           <a href="#home">Akan<span>Name.</span></a>
         </div>
     </nav>
     <p class="intro">Welcome to</p>
@@ -40,39 +40,34 @@
 
     </div>
     <h2 class="name">What's your Akan name?</h2>
+    <h1 class="special" id="akan-name"></h1>
     <h3>Fill out the form below</h3>
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <div class="form">
-                    <label>Enter your First Name</label><br>
-                    <input type="text" id="fname" placeholder="First Name" required><br>
-                    <label>Day</label><br>
-                    <input type="text" id="day" placeholder="DD" required><br>
+            <div class="col-md-6 form">
+                <label>Day</label><br>
+                    <input class="form-control" type="text" id="day" placeholder="DD" required><br>
                     <label>Month</label><br>
-                    <input type="text" id="month" placeholder="MM" required><br>
+                    <input class="form-control" type="text" id="month" placeholder="MM" required><br>
                     <label>Year</label><br>
-                    <input type="text" id="year" placeholder="YYYY" required><br>
+                    <input class="form-control" type="text" id="year" placeholder="YYYY" required><br>
                     <label>Gender</label><br>
                     <input type="radio" name="gender" id="gender" value="male" checked> Male<br>
                     <input type="radio" name="gender" id="gender" value="male" checked> Female<br>
-                    <input type="submit" class="button" value="SUBMIT"
+                    <input type="submit" class="btn btn-primary button" value="SUBMIT"
                     onclick="output()">
                     <div class="intro"></div>
-                    
-                    
-
-                </div>
-            <div class="col-md-6">
-                <p id="akan-name"></p>
 
             </div>
+            <div class="col-md-6">
+                <img class="img-thumbnail img-responsive" src="img/goodname.jpg" alt="Flags of Ghana">
 
             </div>
 
         </div>
 
     </div>
+    
     <script src="js/script.js"></script>
     
 </body>

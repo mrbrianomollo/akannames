@@ -12,12 +12,6 @@ h2 {
 h3{
     margin-top: 10px;
 }
-h5 {
-    text-align: center;
-}
-p {
-    margin-left: 40px;
-}
 
 .content {
     color: white;
@@ -51,4 +45,16 @@ p {
     font-size: 40px;
     margin-left: 40px;
     color: #ccd6f6;
+}
+.button{
+    margin-top: 20px;
+}
+.form{
+    padding: 50px;
+    padding-top: 10px;
+    align-items: center;
+}
+.special{
+    color: yellow;
+    
 }
