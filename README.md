@@ -16,14 +16,14 @@
 
 ## DESCRIPTION
 
-- This website was inspired by how the Akan tribe  from Ghana determine their new-born's first name.
+- This website was inspired by how the Akan tribe from Ghana determine their new-born's first name.
 
 The website outputs the Akan name depending on gender and DOB.
 
 ## Deployment
 
-- You can vist the site directly by clicking [HERE](https://skimanikings.github.io/Akan-Names/)
-- To view the source code on github click [HERE](https://github.com/SkimaniKings/Akan-Names)
+- You can vist the site directly by clicking [HERE]()
+- You can view the source code on github [HERE](https://github.com/mrbrianomollo/akannames.git)
 
 ## BDD
 
@@ -42,19 +42,23 @@ The website outputs the Akan name depending on gender and DOB.
 - After filling out the form you should get an output highlighted in yellow as demonstrated on the picture.
 
 ## Technologies Used
+
 - html
 - css
 - javascript
 - bootsrap
 
 ## Bugs
+
 I noticed when keying in 21st century dates the date is displayed correctly however the name is displayed wrongly. I welcome any contributor who would want to debug the code.
- 
- ## Acknowledgement 
- I would like to thank the following for their assistance through out this project.
-  - The Almighty God
-  - Tevin (collegue) for his assistance for his assistance in the project
-  - And finally Myself
+
+## Acknowledgement
+
+I would like to thank the following for their assistance through out this project.
+
+- The Almighty God
+- Tevin (collegue) for his assistance for his assistance in the project
+- And finally Myself
 
 ## Licence
 
@@ -73,8 +77,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ## Contacts
 
 Incase of any feedback you can reach me through my personal contacts:
-  - mrbrianomollo@gmail.com
-  - 0723670846
+
+- mrbrianomollo@gmail.com
+- 0723670846
 
 ## Author
 
