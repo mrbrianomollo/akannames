@@ -17,7 +17,8 @@ function output() {
         7;
         if (document.getElementById("gender").checked) {
             var gender = "male";
-        } else {
+        } 
+        else {
             var gender = "female";
         }
         if (mm < 1 || mm > 12 || (mm == 2 && dd > 29)) {
