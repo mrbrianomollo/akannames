@@ -109,6 +109,6 @@ function output() {
                 "  , therefore your Akan name is " +
                 femaleName[1];
         } else {
-            alert("Ensure you have filled all the required fields");
+            alert("Ensure you have filled all the required fields(*)");
         }
     }
