@@ -22,7 +22,7 @@ The website outputs the Akan name depending on gender and DOB.
 
 ## Deployment
 
-- You can vist the site directly by clicking [HERE]()
+- You can vist the site directly by clicking [HERE](https://mrbrianomollo.github.io/akannames/)
 - You can view the source code on github [HERE](https://github.com/mrbrianomollo/akannames.git)
 
 ## BDD
@@ -34,11 +34,11 @@ The website outputs the Akan name depending on gender and DOB.
 
 ## Project Screenshot
 
-<img src="img/main-home-page.png" width=300px >
+<img src="img/main-home-page.png" >
 - This is the landing page of the website. It has a brief description of what Akan name is.
-<img src="img/form-section.png" width=300px>
+<img src="img/form-section.png" >
 - This is the section where one gets to fill out the form.
-<img src="img/form-section-with-output.png" width=300px>
+<img src="img/form-section-with-output.png" >
 - After filling out the form you should get an output highlighted in yellow as demonstrated on the picture.
 
 ## Technologies Used
